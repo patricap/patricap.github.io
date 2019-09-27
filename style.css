@@ -1,11 +1,16 @@
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
 p {
-  font-family: "PT Sans"
+  font-family: 'PT Sans', sans-serif;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
   overflow: hidden;
   background-color: white;
 }
@@ -23,7 +28,11 @@ li a {
   font-size: 17px;
 }
 
-
+.logo{
+  float: left;
+  margin right: 80%;
+  width: 100px;
+}
 
 .topnav a:hover {
   background-color: #f0efef;
@@ -33,4 +42,9 @@ li a {
 
 .active {
   background-color:#f0efef;
+}
+
+header{
+  width:800px;
+   float: left;
 }
