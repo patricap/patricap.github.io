@@ -1,9 +1,13 @@
+p {
+  font-family: "PT Sans"
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1c1c1c;
+  background-color: white;
 }
 
 li {
@@ -12,7 +16,7 @@ li {
 
 li a {
   display: block;
-  color: red;
+  color: #676767;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,11 +26,11 @@ li a {
 
 
 .topnav a:hover {
-  background-color: #3c3c3d;
+  background-color: #f0efef;
   position: relative;
   margin: auto;
 }
 
 .active {
-  background-color:#3c3c3d;
+  background-color:#f0efef;
 }
