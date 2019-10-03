@@ -160,5 +160,14 @@ header{
 }
 
 .aboutme{
-  width:80%;
+  width:60%;
+  float: left;
+  padding-left: 60px;
+}
+
+.instagram{
+  width: 21%;
+  float: right;
+  padding-right:60px;
+
 }
