@@ -171,3 +171,57 @@ header{
   padding-right:60px;
 
 }
+
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 4px -16px;
+}
+
+.row:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+.row,
+.row > .column {
+  padding: 12px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding-top: 100px;
+}
+
+.content {
+  background-color: #f6f5f5;
+  padding: 10px;
+  }
+
+
+@media screen and (max-width: 900px) {
+.column {
+    width: 70%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  .gallery {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
