@@ -24,7 +24,7 @@ ul {
 
 li {
   float: left;
-  margin-left: 45px;
+  margin-left: 50px;
 }
 
 li a {
@@ -39,7 +39,7 @@ li a {
 
 .logo{
   float: left;
-  width: 65px;
+  width: 60px;
   padding-left: 8px;
   padding-top: 3px;
 }
@@ -85,6 +85,8 @@ li a {
   float: left;
   width: 600px;
 }
+
+
 
 .topnav a:hover {
   font-weight: bolder;
