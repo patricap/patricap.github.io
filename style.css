@@ -10,6 +10,8 @@ p {
   line-height: 6px;
 }
 
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,7 +24,7 @@ ul {
 
 li {
   float: left;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 li a {
@@ -37,7 +39,7 @@ li a {
 
 .logo{
   float: left;
-  width: 60px;
+  width: 65px;
   padding-left: 8px;
   padding-top: 3px;
 }
@@ -116,11 +118,7 @@ header{
 
 
 
-.aboutme{
-  width:60%;
-  float: left;
-  padding-left: 60px;
-}
+
 
 .instagram{
   width: 21%;
@@ -143,6 +141,7 @@ header{
 
   .gallery {
     margin: 10px 50px;
+    float-left: 200px;
   }
 
 .gallery img  {
@@ -154,9 +153,8 @@ header{
 .gallery img:hover {
   filter: grayscale (100%);
   transform: scale(1.1);
-
 }
 
-.background {
-  background-color:#fafafa;
+.topblog {
+  background-color: #fafafa;
 }
